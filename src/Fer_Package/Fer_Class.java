@@ -11,4 +11,12 @@ package Fer_Package;
  */
 public class Fer_Class {
     
+
+    public Fer_Class() {
+        ventana ventana1;
+        ventana1 = new ventana();
+        ventana1.setVisible(true);
+        
+    }
+    
 }
