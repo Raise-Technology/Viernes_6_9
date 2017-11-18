@@ -1,14 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Aldo_Package;
-
 /**
- *
- * @author Cesar
+ * @author Ing Arcadia
  */
 public class Aldo_Class {
+    Ventana1 obj1 = new Ventana1();
+    
+    
+            
     
 }
