@@ -1,7 +1,7 @@
 package proyectogit;
 
 
-public class MiClase(){
+public class MiClase{
 
   public MiClase(){
   
