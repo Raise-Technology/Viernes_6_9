@@ -1,14 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Erick_Package;
 
 /**
- *
- * @author Cesar
+ * @author Piz
  */
 public class Erick_Class {
-    
+    Erick_Class(){
+        new VentanaErick().setVisible(true);
+    }
 }
