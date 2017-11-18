@@ -34,10 +34,25 @@ public class Principal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         btnErick.setText("Erick");
+        btnErick.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnErickActionPerformed(evt);
+            }
+        });
 
         btnAldo.setText("Aldo");
+        btnAldo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAldoActionPerformed(evt);
+            }
+        });
 
         btnFernando.setText("Fernando");
+        btnFernando.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnFernandoActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -66,6 +81,18 @@ public class Principal extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnErickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnErickActionPerformed
+        new Erick_Package.Erick_Class();
+    }//GEN-LAST:event_btnErickActionPerformed
+
+    private void btnAldoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAldoActionPerformed
+        new Aldo_Package.Aldo_Class();
+    }//GEN-LAST:event_btnAldoActionPerformed
+
+    private void btnFernandoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFernandoActionPerformed
+        new Fer_Package.Fer_Class();
+    }//GEN-LAST:event_btnFernandoActionPerformed
 
     /**
      * @param args the command line arguments
